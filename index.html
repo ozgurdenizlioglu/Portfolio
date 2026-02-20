@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Özgür Denizlioğlu | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">ÖD</a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Özgür Denizlioğlu</h1>
+        <h2 class="hero-title">Software Developer</h2>
+        <p class="hero-description">
+          I build clean, efficient, and user-friendly digital experiences.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/ozgurdenizlioglu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/ozgurdenizlioglu" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator">
+        <a href="#about" aria-label="Scroll down"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-avatar">
+            <div class="avatar-placeholder">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              I'm a passionate software developer who loves turning ideas into
+              reality through code. I focus on writing maintainable, scalable
+              software that delivers real value.
+            </p>
+            <p>
+              When I'm not coding, I enjoy exploring new technologies, contributing
+              to open-source projects, and continuously growing as an engineer.
+            </p>
+            <a href="#contact" class="btn btn-primary" style="margin-top: 1.5rem">Let's Work Together</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fab fa-html5 skill-icon"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-css3-alt skill-icon"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-js skill-icon"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-react skill-icon"></i>
+            <span>React</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-node-js skill-icon"></i>
+            <span>Node.js</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-git-alt skill-icon"></i>
+            <span>Git</span>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-database skill-icon"></i>
+            <span>Databases</span>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-mobile-alt skill-icon"></i>
+            <span>Responsive Design</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="project-info">
+              <h3>Project One</h3>
+              <p>A full-stack web application built with modern technologies, featuring authentication, real-time updates, and a clean UI.</p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ozgurdenizlioglu" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="project-info">
+              <h3>Project Two</h3>
+              <p>A responsive web app with a focus on performance and accessibility, delivering a seamless user experience across devices.</p>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">REST API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ozgurdenizlioglu" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <div class="project-info">
+              <h3>Project Three</h3>
+              <p>A data-driven dashboard application that visualizes complex information in an intuitive and interactive way.</p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Chart.js</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ozgurdenizlioglu" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          I'm currently open to new opportunities. Whether you have a question or
+          just want to say hi, feel free to reach out!
+        </p>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+        <div class="contact-links">
+          <a href="mailto:contact@example.com" class="contact-link">
+            <i class="fas fa-envelope"></i> contact@example.com
+          </a>
+          <a href="https://github.com/ozgurdenizlioglu" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <i class="fab fa-github"></i> github.com/ozgurdenizlioglu
+          </a>
+          <a href="https://linkedin.com/in/ozgurdenizlioglu" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <i class="fab fa-linkedin"></i> linkedin.com/in/ozgurdenizlioglu
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Designed &amp; Built by Özgür Denizlioğlu</p>
+      <p class="footer-year">© <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
